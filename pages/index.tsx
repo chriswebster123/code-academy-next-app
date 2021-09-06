@@ -15,6 +15,15 @@ export default function Home() {
         />
       </Head>
 
+      <header className="h-16 px-8 bg-blue-600 text-white w-full  sticky top-0 flex items-center justify-center">
+{/* mr is margin right, 2 is the space */}
+      	<span className="mr-2">HEADER </span>
+        <div className="h-10 w-10 bg-white rounded-full flex items-center justify-center text-blue-600">
+{/* can use icons from google, heroicons etc */}
+          <span className="material-icons">face</span>
+        </div>
+      </header>
+
       <main className="py-20 flex flex-col flex-1 justify-center items-center">
         <h1 className="m-0 leading-snug text-6xl text-center">
           Welcome to{" "}
