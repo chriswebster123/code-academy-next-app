@@ -26,7 +26,7 @@ export default function Home() {
           </code>
         </p>
 
-        <div className="mt-10 flex flex-wrap flex-col sm:flex-row w-full sm:max-w-3xl justify-center items-center">
+        <div className="mt-10 flex flex-wrap flex-col sm:flex-row w-full justify-center items-center">
           {products.map((p) => (
             <Product key={p.id} {...p} />
           ))}
