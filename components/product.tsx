@@ -9,7 +9,7 @@ const Product: React.FC<IProduct> = ({ id, name, category, cost }) => {
       <div
         id="image"
         className={classNames(
-          `h-64 rounded-t-lg flex items-center justify-center bg-blue-100`
+          `h-64 rounded-t-lg flex items-center justify-center bg-green-100`
         )}
       >
         <span className="material-icons text-6xl text-white">image</span>
