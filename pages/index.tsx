@@ -4,6 +4,7 @@ import Image from "next/image";
 import Card from "../components/card";
 import Product from "../components/product";
 import { useEffect, useState } from "react";
+import { getDB } from "/workspace/code-academy-next-app/db/init-db";
 
 const products = ["T-Shirt", "Jacket", "Hat"];
 
